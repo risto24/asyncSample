@@ -1,6 +1,6 @@
 const sampleFunc1 = () => {
   return new Promise((resolve, reject) => {
-    setTimeout(function() {
+    setTimeout(() => {
       return resolve('1');
     }, Math.random() * 3000);
   });
@@ -8,7 +8,7 @@ const sampleFunc1 = () => {
 
 const sampleFunc2 = () => {
   return new Promise((resolve, reject) => {
-    setTimeout(function() {
+    setTimeout(() => {
       return resolve('2');
     }, Math.random() * 3000);
   });
